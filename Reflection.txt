@@ -1,0 +1,29 @@
+Approach:
+In this project, I created a simple Landing Page for a "Teddy Bear" product, incorporating various sections to display relevant content, such as the product description, features, pricing, and a call-to-action. Here's a breakdown of the steps I followed, challenges I faced, and how I structured the content:
+________________________________________________________________________________________________________________________________________________________________________
+Steps Followed:
+Set Up Basic HTML Structure: I started by creating the basic structure of an HTML document with the <!DOCTYPE html>, <html>, <head>, and <body> tags. I set the character encoding to UTF-8 and made the page responsive by setting the viewport meta tag.
+Added Header Section: I used the <section> tag to group the content related to the product, starting with a heading (<h1>) for the product title ("Teddy Bear"). I added an image with the <img> tag to visually represent the product and a brief description with a <p> tag.
+Features Section: I created another section to list the features of the teddy bear. I used the <ul> (unordered list) and <li> (list item) tags to present the features in a structured way. I also used the <u> tag to underline the feature titles.
+Pricing Section: I structured the pricing details using <p> tags, displaying the original price with a strikethrough using <s>, and the discounted price in bold using <b>. I also added a savings offer.
+Call-to-Action (CTA) Section: I included a "Buy Now" button with the <button> tag to prompt the user to take action. I left it non-functional for now but it can be linked to an actual checkout page later.
+Navigation Bar: A <nav> section was added to create navigation links to the Home, Features, and Pricing sections. These links are placeholders for now, but they can be linked to specific sections later.
+Footer Section: The footer contains copyright information (©2024 Vanshita Agrawal), which I used the <footer> tag to wrap.
+________________________________________________________________________________________________________________________________________________________________________
+Challenges Faced:
+Button and Links: I had to decide how to handle the "Buy Now" button. Initially, it was simply a static button with no functionality. I kept it basic for now, but it can be enhanced later with JavaScript or linked to a checkout page.
+Layout Design: As this is a simple page without complex styles, the design challenges were minimal. However, ensuring proper spacing and alignment of sections was important for readability.
+________________________________________________________________________________________________________________________________________________________________________
+Content Structure:
+Logical Grouping: I grouped related content in sections: one for the product introduction, another for features, one for pricing, and a final one for the call-to-action and navigation.
+Headings and Text: I used <h1>, <h2>, and <p> tags to organize the content into clear sections and make it more readable for users.
+Lists: The product features were structured in a list format using <ul> and <li> tags, making the content easy to read and digest.
+________________________________________________________________________________________________________________________________________________________________________
+Learning:
+From this exercise, I gained valuable insights into various HTML tags and concepts:
+Use of <section>: This tag is great for logically grouping content. It helped me organize the different sections of the webpage (e.g., Features, Pricing, and Footer).
+Using <ul> and <li>: These tags helped me present the features of the product in an easy-to-read list format, making the page more structured.
+<s> and <b> Tags: I used the <s> tag to show the original price with a strikethrough and the <b> tag to highlight the discounted price in bold.
+Navigation (<nav>): I learned how to use the <nav> tag to group navigation links together. Though I used placeholder links for now, this will be helpful for adding functional navigation later.
+Footer (<footer>): I used the <footer> tag to wrap the copyright information, understanding its importance in marking the footer content.
+Inline Styling: While I didn’t dive into external CSS for styling, I learned that inline styles like style="background-color: rgb(172, 255, 227);" can be used for simple customizations.
